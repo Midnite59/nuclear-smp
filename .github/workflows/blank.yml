@@ -1,0 +1,13 @@
+- name: Setup Minecraft
+  # You may pin to the exact commit or the version.
+  # uses: mcenv/setup-minecraft@1f62c3888e64af620b18f631508e47b681d48eb4
+  uses: mcenv/setup-minecraft@v3.3.1
+  with:
+    # Minecraft version to use
+    version: # optional, default is release
+    # Whether to install Minecraft
+    install: # optional, default is true
+    # Whether to cache Minecraft
+    cache: # optional
+    # Number of retries to download Minecraft
+    retries: # optional, default is 3
